@@ -8,7 +8,7 @@ const client = new OpenAI({
 })
 
 const response = await client.responses.create({
-  model: 'gpt-4o',
+  model: 'gpt-4o-mini',
   instructions: 'just give response in 1 simple sentence',
   input: 'Largest Planet in the Solar system ?'
 })
